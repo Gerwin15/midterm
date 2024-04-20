@@ -9,17 +9,26 @@
 
     <style>
         body {background-color: #F7DCB9}
-        h1 {text-align: center;}
-        h1 {font-family: Verdana}
-        p {text-align: center;}
-        p {font-family: Verdana}
+        h1 {text-align: center;
+            font-family: Verdana
+        }
+        p {text-align: center;
+           font-family: Verdana
+        }
         form  {text-align: center;}
-        label {text-align: center;}
-        label {font-family: Verdana}
+        label {text-align: center;
+               font-family: Verdana
+            }
         input {font-family: Verdana}
+        img {display: block;
+             margin-left: auto;
+             margin-right: auto;
+             border:1px solid black
+            }
     </style>
 
 <body>
+<img src="height.gif" alt="height icon" width="150" height="150" class ="center">
     <h1>Height Converter</h1>
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <label for="km">Enter height in kilometers (km):</label>
@@ -34,7 +43,7 @@
         echo "<p>$km kilometers is equal to $m meters.</p>";
     }
     ?>
-    
+
     <p><a href="index.php">Back to Home</a></p>
 </body>
 </html>
