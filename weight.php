@@ -9,13 +9,16 @@
 
     <style>
         body {background-color: #F7DCB9}
-        h1 {text-align: center;}
-        h1 {font-family: Verdana}
-        p {text-align: center;}
-        p {font-family: Verdana}
+        h1 {text-align: center;
+            font-family: Verdana
+        }
+        p {text-align: center;
+           font-family: Verdana
+        }
         form  {text-align: center;}
-        label {text-align: center;}
-        label {font-family: Verdana}
+        label {text-align: center;
+               font-family: Verdana
+            }
         input {font-family: Verdana}
     </style>
 
