@@ -20,9 +20,15 @@
                font-family: Verdana
             }
         input {font-family: Verdana}
+        img {display: block;
+             margin-left: auto;
+             margin-right: auto;
+             border:1px solid black
+            }
     </style>
 
 <body>
+<img src="weight.gif" alt="weight icon" width="150" height="150" class ="center">
     <h1>Weight Converter</h1>
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <label for="kg">Enter weight in kilograms (kg):</label>
