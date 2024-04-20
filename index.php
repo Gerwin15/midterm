@@ -20,14 +20,13 @@
         img {display: block;
              margin-left: auto;
              margin-right: auto;
-
+             border:1px solid black
             }
         
     </style>
 
     <body>
     <img src="home.gif" alt="home icon" width="150" height="150" class ="center">
-
     <h1>Welcome to Gerwin's Unit Converter!</h1>
     <p>Please select an option:</p>
 
