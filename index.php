@@ -8,16 +8,26 @@
 
     <style>
         body {background-color: #F7DCB9}
-        h1 {text-align: center;}
-        h1 {font-family: Verdana}
-        p {text-align: center;}
-        p {font-family: Verdana}
-        li {text-align: center;}
-        li {font-family: Verdana}
+        h1 {text-align: center;
+            font-family: Verdana
+        }
+        p {text-align: center;
+           font-family: Verdana
+        }
+        li {text-align: center;
+            font-family: Verdana
+        }
+        img {display: block;
+             margin-left: auto;
+             margin-right: auto;
+
+            }
+        
     </style>
 
     <body>
-     
+    <img src="home.gif" alt="home icon" width="150" height="150" class ="center">
+
     <h1>Welcome to Gerwin's Unit Converter!</h1>
     <p>Please select an option:</p>
 
